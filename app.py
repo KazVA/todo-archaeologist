@@ -15,6 +15,7 @@ def export_report(data):
 
 
 def main():
+    # XXX: Validate input before processing
     items = [100, 200, 300]
     # TODO: Add logging for failed operations
     print("Total:", calculate_total(items))
