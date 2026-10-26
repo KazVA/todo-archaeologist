@@ -16,6 +16,7 @@ def export_report(data):
 
 def main():
     items = [100, 200, 300]
+    # TODO: Add logging for failed operations
     print("Total:", calculate_total(items))
     print("Report:", export_report(items))
 
